@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #282828;
+}
+
+#conteiner{
+    display: block;
+    text-align: center;
+}
+
+h1{
+    color: teal;
+}
+
+p{
+    font-size: 20px;
+    color:cornflowerblue;
+}
+
+#box_boton{
+    height: 50px;
+}
+
+#box_boton .boton, #conteiner .boton{
+    display: block;
+    width: 210px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #cccc;
+    
+}
+
+#box_boton .boton:hover, #conteiner .boton:hover{
+    border: 2px solid #282828;
+    box-shadow: 5px 5px 5px #cdcd;
+}
+
+
+#box_boton .boton a, #conteiner .boton a{
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #282828;
+}
+
+#box_boton .boton a:hover, #conteiner .boton a:hover{
+    color: #404040;
+}
+
+
+/*---> schedule Time <---*/
+.scheduleTime{
+    display: block;
+    width: 900px;
+    margin: auto;
+    padding: 8px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #28282885;
+}
+
+.scheduleTime label{
+    margin-right: 5px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: cornflowerblue;
+
+}
+
+.scheduleTime span{
+    color: red;
+}
+
+.scheduleTime input{
+    margin-bottom: 20px;
+    font-size: 17px;
+    letter-spacing: 2px;
+    color: teal;
+    border: none;
+    box-shadow: 4px 4px 6px 0px #cdcd;
+    background-color: #ddd;
+}
+
+.scheduleTime input:focus{ 
+    box-shadow: 4px 4px 6px 0px teal;
+    outline: 0 none;
+}
+
+.single, .superior, .doble,
+.triple, .cuadruple, .quintuple,
+.sextuple, .siesta, .mascota, .cochera{
+    width: 120px;
+    height: 30px;
+    text-align: center;
+}
+
+.date{
+    width: 150px;
+    height: 30px; 
+    text-align: center;
+}
+
+.hour{
+    width: 100px;
+    height: 30px; 
+    text-align: center;  
+}
+
+#enviar {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#enviar .btn_reschedule{
+    padding: 5px;
+    letter-spacing: 3px;
+    border: 2px solid #282828;
+    background-color: #ccc;
+}
+
+#enviar .btn_reschedule:hover{
+    border: 2px solid #282828;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 5px 5px 5px #cdcd;
+}
